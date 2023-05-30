@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+
+body{
+    background-image: url('Media/R\ \(2\).jfif');
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+
+.game{
+    top: 80%;
+
+    width: 400px;
+    height: 300px;
+ 
+}
+header{
+    color: white;
+    /* opacity: 0.8; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+h2{
+    color: white;
+
+}
+button{
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: chartreuse;
+}
